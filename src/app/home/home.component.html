@@ -36,10 +36,10 @@
         </tr>
         <tr *ngFor="let trai of traicay2, let i = index">
             <th>{{i}}</th>
-            <th>{{trai.ten}}</th>
-            <th class="right"><span [ngClass]="{'so-am': trai.gia < 0}">{{trai.gia}}</span></th>
-            <th>{{trai.hagia}}</th>
-            <th *ngIf="trai.hagia">Đang hạ giá !</th>
+            <th>{{trai.ten | uppercase}}</th>
+            <th class="right"><span [ngClass]="{'so-am': trai.gia < 0}">{{trai.gia |
+                    currency:"VND":"symbol":"1.2"}}</span></th>
+            <th><span>{{trai.hagia | onSale | uppercase}}</span></th>
         </tr>
     </table>
 </div>
