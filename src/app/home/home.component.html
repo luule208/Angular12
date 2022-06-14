@@ -43,3 +43,18 @@
         </tr>
     </table>
 </div>
+<div class="cssOfHome">
+    <h3>Tỉnh / Thành Phố :</h3>
+    <select id="city" (change)="changeCity($event)">
+        <option *ngFor="let data of cities" value="{{data.city}}">
+            {{data.city}}
+        </option>
+    </select>
+    <br>
+    <h3>Quận / Huyện :</h3>
+    <select id="district">
+        <option *ngFor="let item of district" value="{{item}}">
+            {{item}}
+        </option>
+    </select>
+</div>
