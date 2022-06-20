@@ -16,10 +16,7 @@ export class HomeComponent implements OnInit {
     { ten: 'Cam', gia: 8, hagia: true },
   ];
   public cities = [
-    {
-      city: 'Chọn thành phố',
-      district: ['Quận huyện'],
-    },
+    { city: 'Chọn thành phố', district: ['Quận huyện'] },
     {
       city: 'An Giang',
       district: ['Thành phố Long Xuyên', 'Thành phố Châu Đốc', 'Huyện An Phú'],
