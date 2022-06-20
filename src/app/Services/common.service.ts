@@ -17,4 +17,7 @@ export class CommonService {
   public setCounter(n: number): number {
     return (this.counter = n);
   }
+  public submitData(data: any): void {
+    console.log('Send data to server:', data);
+  }
 }
