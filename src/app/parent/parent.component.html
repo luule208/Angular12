@@ -1,0 +1,8 @@
+<p>parent works!</p>
+<p>{{parentMessage}}</p>
+<br>
+<button (click)='giveMoney()'>Give Money</button>
+<br>
+<app-child #ABC name='ABC' (childCall)="helloChild($event)"></app-child>
+<br>
+<app-child #XYZ name ='XYZ' (childCall)="helloChild($event)"></app-child>

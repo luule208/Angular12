@@ -15,6 +15,8 @@ import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { GetDataComponent } from './get-data/get-data.component';
 import { PostDataComponent } from './post-data/post-data.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +29,8 @@ import { PostDataComponent } from './post-data/post-data.component';
     ReactiveFormComponent,
     GetDataComponent,
     PostDataComponent,
+    ParentComponent,
+    ChildComponent,
   ],
   imports: [
     BrowserModule,
