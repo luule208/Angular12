@@ -7,7 +7,7 @@ import { CommonService } from '../Services/common.service';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  public name = 'Lưu Lê';
+  public name = 'rgxcbr';
   public age = 25;
   public traicay = ['Táo', 'Nho', 'Cam', 'Quit', 'Ổi'];
   public traicay2 = [
