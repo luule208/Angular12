@@ -19,6 +19,9 @@ import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { QRComponent } from './qr/qr.component';
 import { QRCodeModule } from 'angular2-qrcode';
+import { GuardLoginNavComponent } from './guard-login-nav/guard-login-nav.component';
+import { LoginComponent } from './login/login.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,6 +37,8 @@ import { QRCodeModule } from 'angular2-qrcode';
     ParentComponent,
     ChildComponent,
     QRComponent,
+    GuardLoginNavComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
