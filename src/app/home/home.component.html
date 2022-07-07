@@ -1,7 +1,7 @@
 <div class="cssOfHome">
     <h3>Đây là component Home</h3>
     <h2>Chào bạn {{name}}</h2>
-    <input type="number" [(ngModel)]="age" />
+    <input type="number" [(ngModel)]="age" (change)="changeAge()" />
     <br />
     <h3>Tuổi của bạn là {{age}}</h3>
     <!-- <h2 *ngIf="age > 18">Bạn quá già rồi</h2>
@@ -58,3 +58,5 @@
         </option>
     </select>
 </div>
+<br>
+<span>result = {{result}}</span>

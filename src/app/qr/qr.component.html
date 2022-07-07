@@ -1,0 +1,10 @@
+<p>qr works!</p>
+<br>
+Base Infor:<input type="text" (change)="changeBase($event)">
+<br>
+Name:<input type="text" (change)="changeName($event)"/>
+<br>
+Age:<input type="text" (change)="changeAge($event)" />
+<br>
+<p>QR code :{{qrInfor}}</p>
+<qr-code [value]="qrInfor" [size]="width"></qr-code>
